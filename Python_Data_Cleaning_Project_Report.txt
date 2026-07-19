@@ -1,0 +1,37 @@
+PYTHON DATA CLEANING PROJECT REPORT
+
+Project Title End-to-End Data Cleaning and Preprocessing using Python
+(Pandas)
+
+Project Objective The objective of this project was to clean and
+preprocess a raw retail sales dataset using Python and Pandas. The
+dataset contained missing values, inconsistent column names, unnecessary
+columns, incorrect numeric formats, and extreme outlier values. The goal
+was to transform the raw data into a structured dataset suitable for
+exploratory data analysis, dashboard creation, and machine learning
+applications.
+
+Tools & Technologies - Python - Pandas - NumPy - Plotly Express -
+Matplotlib - Seaborn - Missingno - Jupyter Notebook
+
+Dataset Overview The retail sales dataset contains customer, product,
+payment, quantity, pricing, discount, and transaction information.
+
+Workflow 1. Imported required Python libraries. 2. Loaded the Excel
+dataset into Pandas. 3. Explored the dataset using head(), info(),
+describe(), shape, and columns. 4. Identified missing values using
+isnull().sum(). 5. Visualized missing values. 6. Removed unnecessary
+columns. 7. Imputed missing numerical values using mean. 8. Imputed
+missing categorical values using mode. 9. Renamed columns for
+consistency. 10. Detected and removed outliers using the IQR method. 11.
+Converted numeric columns to appropriate data types. 12. Created a
+Total_Price feature using Quantity, Unit Price, Amount, and Discount.
+13. Exported the cleaned dataset to CSV.
+
+Skills Demonstrated Data Cleaning, Data Wrangling, Data Preprocessing,
+Feature Engineering, Missing Value Treatment, Outlier Detection, Data
+Type Conversion, Pandas, NumPy, Plotly, Jupyter Notebook.
+
+Business Outcome The final dataset is clean, standardized,
+analysis-ready, and suitable for dashboards, business intelligence
+reporting, exploratory data analysis, and machine learning.
